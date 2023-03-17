@@ -3,7 +3,7 @@
 
     require_once("models/Socialmedia.php");
     $socialmedia = new Socialmedia();
-    $smx = $socialmedia->get_socialmedia();
+    $smx => $socialmedia->get_socialmedia();
 
 
     require_once("models/Curso.php");
